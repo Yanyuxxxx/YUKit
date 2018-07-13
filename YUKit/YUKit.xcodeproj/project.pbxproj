@@ -7,68 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		611E795520F8ADFA008ADAF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E795420F8ADFA008ADAF2 /* AppDelegate.m */; };
-		611E795820F8ADFA008ADAF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E795720F8ADFA008ADAF2 /* ViewController.m */; };
-		611E795B20F8ADFA008ADAF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E795920F8ADFA008ADAF2 /* Main.storyboard */; };
-		611E795D20F8ADFB008ADAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611E795C20F8ADFB008ADAF2 /* Assets.xcassets */; };
-		611E796020F8ADFB008ADAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E795E20F8ADFB008ADAF2 /* LaunchScreen.storyboard */; };
-		611E796320F8ADFB008ADAF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E796220F8ADFB008ADAF2 /* main.m */; };
-		611E796D20F8ADFB008ADAF2 /* YUKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E796C20F8ADFB008ADAF2 /* YUKitTests.m */; };
-		611E797820F8ADFB008ADAF2 /* YUKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E797720F8ADFB008ADAF2 /* YUKitUITests.m */; };
+		611E799320F8B14C008ADAF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E799220F8B14C008ADAF2 /* AppDelegate.m */; };
+		611E799620F8B14C008ADAF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E799520F8B14C008ADAF2 /* ViewController.m */; };
+		611E799920F8B14C008ADAF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E799720F8B14C008ADAF2 /* Main.storyboard */; };
+		611E799B20F8B14C008ADAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611E799A20F8B14C008ADAF2 /* Assets.xcassets */; };
+		611E799E20F8B14C008ADAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E799C20F8B14C008ADAF2 /* LaunchScreen.storyboard */; };
+		611E79A120F8B14C008ADAF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E79A020F8B14C008ADAF2 /* main.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		611E796920F8ADFB008ADAF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 611E794820F8ADFA008ADAF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 611E794F20F8ADFA008ADAF2;
-			remoteInfo = YUKit;
-		};
-		611E797420F8ADFB008ADAF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 611E794820F8ADFA008ADAF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 611E794F20F8ADFA008ADAF2;
-			remoteInfo = YUKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		611E795020F8ADFA008ADAF2 /* YUKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		611E795320F8ADFA008ADAF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		611E795420F8ADFA008ADAF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		611E795620F8ADFA008ADAF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		611E795720F8ADFA008ADAF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		611E795A20F8ADFA008ADAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		611E795C20F8ADFB008ADAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		611E795F20F8ADFB008ADAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		611E796120F8ADFB008ADAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		611E796220F8ADFB008ADAF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		611E796820F8ADFB008ADAF2 /* YUKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		611E796C20F8ADFB008ADAF2 /* YUKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUKitTests.m; sourceTree = "<group>"; };
-		611E796E20F8ADFB008ADAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		611E797320F8ADFB008ADAF2 /* YUKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		611E797720F8ADFB008ADAF2 /* YUKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUKitUITests.m; sourceTree = "<group>"; };
-		611E797920F8ADFB008ADAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611E798E20F8B14C008ADAF2 /* YUKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611E799120F8B14C008ADAF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		611E799220F8B14C008ADAF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		611E799420F8B14C008ADAF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		611E799520F8B14C008ADAF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		611E799820F8B14C008ADAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		611E799A20F8B14C008ADAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		611E799D20F8B14C008ADAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		611E799F20F8B14C008ADAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611E79A020F8B14C008ADAF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		611E794D20F8ADFA008ADAF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		611E796520F8ADFB008ADAF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		611E797020F8ADFB008ADAF2 /* Frameworks */ = {
+		611E798B20F8B14C008ADAF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,70 +39,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		611E794720F8ADFA008ADAF2 = {
+		611E798520F8B14C008ADAF2 = {
 			isa = PBXGroup;
 			children = (
-				611E795220F8ADFA008ADAF2 /* YUKit */,
-				611E796B20F8ADFB008ADAF2 /* YUKitTests */,
-				611E797620F8ADFB008ADAF2 /* YUKitUITests */,
-				611E795120F8ADFA008ADAF2 /* Products */,
+				611E799020F8B14C008ADAF2 /* YUKit */,
+				611E798F20F8B14C008ADAF2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		611E795120F8ADFA008ADAF2 /* Products */ = {
+		611E798F20F8B14C008ADAF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				611E795020F8ADFA008ADAF2 /* YUKit.app */,
-				611E796820F8ADFB008ADAF2 /* YUKitTests.xctest */,
-				611E797320F8ADFB008ADAF2 /* YUKitUITests.xctest */,
+				611E798E20F8B14C008ADAF2 /* YUKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		611E795220F8ADFA008ADAF2 /* YUKit */ = {
+		611E799020F8B14C008ADAF2 /* YUKit */ = {
 			isa = PBXGroup;
 			children = (
-				611E795320F8ADFA008ADAF2 /* AppDelegate.h */,
-				611E795420F8ADFA008ADAF2 /* AppDelegate.m */,
-				611E795620F8ADFA008ADAF2 /* ViewController.h */,
-				611E795720F8ADFA008ADAF2 /* ViewController.m */,
-				611E795920F8ADFA008ADAF2 /* Main.storyboard */,
-				611E795C20F8ADFB008ADAF2 /* Assets.xcassets */,
-				611E795E20F8ADFB008ADAF2 /* LaunchScreen.storyboard */,
-				611E796120F8ADFB008ADAF2 /* Info.plist */,
-				611E796220F8ADFB008ADAF2 /* main.m */,
+				611E799120F8B14C008ADAF2 /* AppDelegate.h */,
+				611E799220F8B14C008ADAF2 /* AppDelegate.m */,
+				611E799420F8B14C008ADAF2 /* ViewController.h */,
+				611E799520F8B14C008ADAF2 /* ViewController.m */,
+				611E799720F8B14C008ADAF2 /* Main.storyboard */,
+				611E799A20F8B14C008ADAF2 /* Assets.xcassets */,
+				611E799C20F8B14C008ADAF2 /* LaunchScreen.storyboard */,
+				611E799F20F8B14C008ADAF2 /* Info.plist */,
+				611E79A020F8B14C008ADAF2 /* main.m */,
 			);
 			path = YUKit;
-			sourceTree = "<group>";
-		};
-		611E796B20F8ADFB008ADAF2 /* YUKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				611E796C20F8ADFB008ADAF2 /* YUKitTests.m */,
-				611E796E20F8ADFB008ADAF2 /* Info.plist */,
-			);
-			path = YUKitTests;
-			sourceTree = "<group>";
-		};
-		611E797620F8ADFB008ADAF2 /* YUKitUITests */ = {
-			isa = PBXGroup;
-			children = (
-				611E797720F8ADFB008ADAF2 /* YUKitUITests.m */,
-				611E797920F8ADFB008ADAF2 /* Info.plist */,
-			);
-			path = YUKitUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		611E794F20F8ADFA008ADAF2 /* YUKit */ = {
+		611E798D20F8B14C008ADAF2 /* YUKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 611E797C20F8ADFC008ADAF2 /* Build configuration list for PBXNativeTarget "YUKit" */;
+			buildConfigurationList = 611E79A420F8B14C008ADAF2 /* Build configuration list for PBXNativeTarget "YUKit" */;
 			buildPhases = (
-				611E794C20F8ADFA008ADAF2 /* Sources */,
-				611E794D20F8ADFA008ADAF2 /* Frameworks */,
-				611E794E20F8ADFA008ADAF2 /* Resources */,
+				611E798A20F8B14C008ADAF2 /* Sources */,
+				611E798B20F8B14C008ADAF2 /* Frameworks */,
+				611E798C20F8B14C008ADAF2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,68 +88,24 @@
 			);
 			name = YUKit;
 			productName = YUKit;
-			productReference = 611E795020F8ADFA008ADAF2 /* YUKit.app */;
+			productReference = 611E798E20F8B14C008ADAF2 /* YUKit.app */;
 			productType = "com.apple.product-type.application";
-		};
-		611E796720F8ADFB008ADAF2 /* YUKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 611E797F20F8ADFC008ADAF2 /* Build configuration list for PBXNativeTarget "YUKitTests" */;
-			buildPhases = (
-				611E796420F8ADFB008ADAF2 /* Sources */,
-				611E796520F8ADFB008ADAF2 /* Frameworks */,
-				611E796620F8ADFB008ADAF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				611E796A20F8ADFB008ADAF2 /* PBXTargetDependency */,
-			);
-			name = YUKitTests;
-			productName = YUKitTests;
-			productReference = 611E796820F8ADFB008ADAF2 /* YUKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		611E797220F8ADFB008ADAF2 /* YUKitUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 611E798220F8ADFC008ADAF2 /* Build configuration list for PBXNativeTarget "YUKitUITests" */;
-			buildPhases = (
-				611E796F20F8ADFB008ADAF2 /* Sources */,
-				611E797020F8ADFB008ADAF2 /* Frameworks */,
-				611E797120F8ADFB008ADAF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				611E797520F8ADFB008ADAF2 /* PBXTargetDependency */,
-			);
-			name = YUKitUITests;
-			productName = YUKitUITests;
-			productReference = 611E797320F8ADFB008ADAF2 /* YUKitUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		611E794820F8ADFA008ADAF2 /* Project object */ = {
+		611E798620F8B14C008ADAF2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Yanyuxxxx;
 				TargetAttributes = {
-					611E794F20F8ADFA008ADAF2 = {
+					611E798D20F8B14C008ADAF2 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					611E796720F8ADFB008ADAF2 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 611E794F20F8ADFA008ADAF2;
-					};
-					611E797220F8ADFB008ADAF2 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 611E794F20F8ADFA008ADAF2;
 					};
 				};
 			};
-			buildConfigurationList = 611E794B20F8ADFA008ADAF2 /* Build configuration list for PBXProject "YUKit" */;
+			buildConfigurationList = 611E798920F8B14C008ADAF2 /* Build configuration list for PBXProject "YUKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,100 +113,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 611E794720F8ADFA008ADAF2;
-			productRefGroup = 611E795120F8ADFA008ADAF2 /* Products */;
+			mainGroup = 611E798520F8B14C008ADAF2;
+			productRefGroup = 611E798F20F8B14C008ADAF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				611E794F20F8ADFA008ADAF2 /* YUKit */,
-				611E796720F8ADFB008ADAF2 /* YUKitTests */,
-				611E797220F8ADFB008ADAF2 /* YUKitUITests */,
+				611E798D20F8B14C008ADAF2 /* YUKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		611E794E20F8ADFA008ADAF2 /* Resources */ = {
+		611E798C20F8B14C008ADAF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611E796020F8ADFB008ADAF2 /* LaunchScreen.storyboard in Resources */,
-				611E795D20F8ADFB008ADAF2 /* Assets.xcassets in Resources */,
-				611E795B20F8ADFA008ADAF2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		611E796620F8ADFB008ADAF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		611E797120F8ADFB008ADAF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				611E799E20F8B14C008ADAF2 /* LaunchScreen.storyboard in Resources */,
+				611E799B20F8B14C008ADAF2 /* Assets.xcassets in Resources */,
+				611E799920F8B14C008ADAF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		611E794C20F8ADFA008ADAF2 /* Sources */ = {
+		611E798A20F8B14C008ADAF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611E795820F8ADFA008ADAF2 /* ViewController.m in Sources */,
-				611E796320F8ADFB008ADAF2 /* main.m in Sources */,
-				611E795520F8ADFA008ADAF2 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		611E796420F8ADFB008ADAF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				611E796D20F8ADFB008ADAF2 /* YUKitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		611E796F20F8ADFB008ADAF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				611E797820F8ADFB008ADAF2 /* YUKitUITests.m in Sources */,
+				611E799620F8B14C008ADAF2 /* ViewController.m in Sources */,
+				611E79A120F8B14C008ADAF2 /* main.m in Sources */,
+				611E799320F8B14C008ADAF2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		611E796A20F8ADFB008ADAF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 611E794F20F8ADFA008ADAF2 /* YUKit */;
-			targetProxy = 611E796920F8ADFB008ADAF2 /* PBXContainerItemProxy */;
-		};
-		611E797520F8ADFB008ADAF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 611E794F20F8ADFA008ADAF2 /* YUKit */;
-			targetProxy = 611E797420F8ADFB008ADAF2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		611E795920F8ADFA008ADAF2 /* Main.storyboard */ = {
+		611E799720F8B14C008ADAF2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				611E795A20F8ADFA008ADAF2 /* Base */,
+				611E799820F8B14C008ADAF2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		611E795E20F8ADFB008ADAF2 /* LaunchScreen.storyboard */ = {
+		611E799C20F8B14C008ADAF2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				611E795F20F8ADFB008ADAF2 /* Base */,
+				611E799D20F8B14C008ADAF2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		611E797A20F8ADFC008ADAF2 /* Debug */ = {
+		611E79A220F8B14C008ADAF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		611E797B20F8ADFC008ADAF2 /* Release */ = {
+		611E79A320F8B14C008ADAF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,7 +279,7 @@
 			};
 			name = Release;
 		};
-		611E797D20F8ADFC008ADAF2 /* Debug */ = {
+		611E79A520F8B14C008ADAF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		611E797E20F8ADFC008ADAF2 /* Release */ = {
+		611E79A620F8B14C008ADAF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,123 +310,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yanyuxxxx.YUKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		611E798020F8ADFC008ADAF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ET6XQ7WC69;
-				INFOPLIST_FILE = YUKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Yanyuxxxx.YUKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUKit.app/YUKit";
-			};
-			name = Debug;
-		};
-		611E798120F8ADFC008ADAF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ET6XQ7WC69;
-				INFOPLIST_FILE = YUKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Yanyuxxxx.YUKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUKit.app/YUKit";
-			};
-			name = Release;
-		};
-		611E798320F8ADFC008ADAF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ET6XQ7WC69;
-				INFOPLIST_FILE = YUKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Yanyuxxxx.YUKitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = YUKit;
-			};
-			name = Debug;
-		};
-		611E798420F8ADFC008ADAF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ET6XQ7WC69;
-				INFOPLIST_FILE = YUKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Yanyuxxxx.YUKitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = YUKit;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		611E794B20F8ADFA008ADAF2 /* Build configuration list for PBXProject "YUKit" */ = {
+		611E798920F8B14C008ADAF2 /* Build configuration list for PBXProject "YUKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				611E797A20F8ADFC008ADAF2 /* Debug */,
-				611E797B20F8ADFC008ADAF2 /* Release */,
+				611E79A220F8B14C008ADAF2 /* Debug */,
+				611E79A320F8B14C008ADAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		611E797C20F8ADFC008ADAF2 /* Build configuration list for PBXNativeTarget "YUKit" */ = {
+		611E79A420F8B14C008ADAF2 /* Build configuration list for PBXNativeTarget "YUKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				611E797D20F8ADFC008ADAF2 /* Debug */,
-				611E797E20F8ADFC008ADAF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		611E797F20F8ADFC008ADAF2 /* Build configuration list for PBXNativeTarget "YUKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				611E798020F8ADFC008ADAF2 /* Debug */,
-				611E798120F8ADFC008ADAF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		611E798220F8ADFC008ADAF2 /* Build configuration list for PBXNativeTarget "YUKitUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				611E798320F8ADFC008ADAF2 /* Debug */,
-				611E798420F8ADFC008ADAF2 /* Release */,
+				611E79A520F8B14C008ADAF2 /* Debug */,
+				611E79A620F8B14C008ADAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 611E794820F8ADFA008ADAF2 /* Project object */;
+	rootObject = 611E798620F8B14C008ADAF2 /* Project object */;
 }
