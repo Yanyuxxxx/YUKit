@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		610795EB20FC840C00AFAECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610795DD20FC840C00AFAECB /* ViewController.m */; };
-		610795EE20FC840C00AFAECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610795E420FC840C00AFAECB /* Assets.xcassets */; };
-		610795F120FC840C00AFAECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610795EA20FC840C00AFAECB /* AppDelegate.m */; };
-		6107960220FC875100AFAECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610795FC20FC875100AFAECB /* LaunchScreen.storyboard */; };
-		6107960320FC875100AFAECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610795FE20FC875100AFAECB /* Main.storyboard */; };
-		6107960420FC875100AFAECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6107960020FC875100AFAECB /* main.m */; };
-		6107960520FC875100AFAECB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6107960120FC875100AFAECB /* Info.plist */; };
+		611E799320F8B14C008ADAF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E799220F8B14C008ADAF2 /* AppDelegate.m */; };
+		611E799620F8B14C008ADAF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E799520F8B14C008ADAF2 /* ViewController.m */; };
+		611E799920F8B14C008ADAF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E799720F8B14C008ADAF2 /* Main.storyboard */; };
+		611E799B20F8B14C008ADAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611E799A20F8B14C008ADAF2 /* Assets.xcassets */; };
+		611E799E20F8B14C008ADAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E799C20F8B14C008ADAF2 /* LaunchScreen.storyboard */; };
+		611E79A120F8B14C008ADAF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E79A020F8B14C008ADAF2 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		610795DD20FC840C00AFAECB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		610795E220FC840C00AFAECB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		610795E420FC840C00AFAECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		610795E920FC840C00AFAECB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		610795EA20FC840C00AFAECB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		610795F320FC86C800AFAECB /* YUKitColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUKitColor.h; sourceTree = "<group>"; };
-		610795FD20FC875100AFAECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		610795FF20FC875100AFAECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6107960020FC875100AFAECB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6107960120FC875100AFAECB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		611E798E20F8B14C008ADAF2 /* YUKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611E799120F8B14C008ADAF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		611E799220F8B14C008ADAF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		611E799420F8B14C008ADAF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		611E799520F8B14C008ADAF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		611E799820F8B14C008ADAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		611E799A20F8B14C008ADAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		611E799D20F8B14C008ADAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		611E799F20F8B14C008ADAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611E79A020F8B14C008ADAF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,59 +39,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		610795DC20FC840C00AFAECB /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				610795E220FC840C00AFAECB /* ViewController.h */,
-				610795DD20FC840C00AFAECB /* ViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		610795E320FC840C00AFAECB /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				610795E420FC840C00AFAECB /* Assets.xcassets */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		610795E820FC840C00AFAECB /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				610795E920FC840C00AFAECB /* AppDelegate.h */,
-				610795EA20FC840C00AFAECB /* AppDelegate.m */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		610795F220FC86B800AFAECB /* HDFDefine */ = {
-			isa = PBXGroup;
-			children = (
-				610795F320FC86C800AFAECB /* YUKitColor.h */,
-			);
-			path = HDFDefine;
-			sourceTree = "<group>";
-		};
-		610795FB20FC875100AFAECB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				610795FC20FC875100AFAECB /* LaunchScreen.storyboard */,
-				610795FE20FC875100AFAECB /* Main.storyboard */,
-				6107960020FC875100AFAECB /* main.m */,
-				6107960120FC875100AFAECB /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		611E798520F8B14C008ADAF2 = {
 			isa = PBXGroup;
 			children = (
 				611E799020F8B14C008ADAF2 /* YUKit */,
-				610795E820FC840C00AFAECB /* AppDelegate */,
-				610795E320FC840C00AFAECB /* Resource */,
-				610795FB20FC875100AFAECB /* Supporting Files */,
-				610795DC20FC840C00AFAECB /* ViewController */,
 				611E798F20F8B14C008ADAF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,7 +58,15 @@
 		611E799020F8B14C008ADAF2 /* YUKit */ = {
 			isa = PBXGroup;
 			children = (
-				610795F220FC86B800AFAECB /* HDFDefine */,
+				611E799120F8B14C008ADAF2 /* AppDelegate.h */,
+				611E799220F8B14C008ADAF2 /* AppDelegate.m */,
+				611E799420F8B14C008ADAF2 /* ViewController.h */,
+				611E799520F8B14C008ADAF2 /* ViewController.m */,
+				611E799720F8B14C008ADAF2 /* Main.storyboard */,
+				611E799A20F8B14C008ADAF2 /* Assets.xcassets */,
+				611E799C20F8B14C008ADAF2 /* LaunchScreen.storyboard */,
+				611E799F20F8B14C008ADAF2 /* Info.plist */,
+				611E79A020F8B14C008ADAF2 /* main.m */,
 			);
 			path = YUKit;
 			sourceTree = "<group>";
@@ -171,10 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6107960520FC875100AFAECB /* Info.plist in Resources */,
-				6107960320FC875100AFAECB /* Main.storyboard in Resources */,
-				610795EE20FC840C00AFAECB /* Assets.xcassets in Resources */,
-				6107960220FC875100AFAECB /* LaunchScreen.storyboard in Resources */,
+				611E799E20F8B14C008ADAF2 /* LaunchScreen.storyboard in Resources */,
+				611E799B20F8B14C008ADAF2 /* Assets.xcassets in Resources */,
+				611E799920F8B14C008ADAF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,29 +141,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610795EB20FC840C00AFAECB /* ViewController.m in Sources */,
-				6107960420FC875100AFAECB /* main.m in Sources */,
-				610795F120FC840C00AFAECB /* AppDelegate.m in Sources */,
+				611E799620F8B14C008ADAF2 /* ViewController.m in Sources */,
+				611E79A120F8B14C008ADAF2 /* main.m in Sources */,
+				611E799320F8B14C008ADAF2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		610795FC20FC875100AFAECB /* LaunchScreen.storyboard */ = {
+		611E799720F8B14C008ADAF2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				610795FD20FC875100AFAECB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		610795FE20FC875100AFAECB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				610795FF20FC875100AFAECB /* Base */,
+				611E799820F8B14C008ADAF2 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		611E799C20F8B14C008ADAF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611E799D20F8B14C008ADAF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -329,7 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ET6XQ7WC69;
-				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INFOPLIST_FILE = YUKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ET6XQ7WC69;
-				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INFOPLIST_FILE = YUKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
