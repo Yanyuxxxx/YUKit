@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YUKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "YUKit组件"
   s.description  = <<-DESC
 			"YUKit.description"
@@ -21,7 +21,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", }
   # s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", :tag => s.version }
   s.source_files  = "YUKit", "YUKit/YUKit/**/*.{h,m}"
-  s.exclude_files = "YUKit/Exclude"
   s.requires_arc = true
+
+  s.frameworks   = "UIKit", "Foundation" #支持的框架
+  s.dependency     'Masonry', '1.1.0'
 
 end

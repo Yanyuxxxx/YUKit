@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "YUKitColor.h"
+#import "Masonry.h"
+#import "YUViewController.h"
 
 @interface ViewController ()
 
@@ -19,9 +21,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.view.backgroundColor = HexColor(0xFF0000);
+//    self.view.backgroundColor = HexColor(0xFF0000);
+    
+    
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self presentViewController:[YUViewController new] animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
