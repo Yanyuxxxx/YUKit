@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files  = "YUKit", "YUKit/YUKit/**/*.{h,m}"
   s.requires_arc = true
 
-  s.frameworks   = "UIKit", "Foundation" #支持的框架
+  s.frameworks   = "UIKit", "Foundation" 
   s.dependency     'Masonry', '1.1.0'
 
 end
