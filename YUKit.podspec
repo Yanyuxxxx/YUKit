@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YUKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "YUKit组件"
   s.description  = <<-DESC
 			"YUKit.description"
@@ -18,14 +18,13 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Yanyuxxxx" => "yd5611@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", }
-  # s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", :tag => s.version.to.s }
+  # s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", }
+  s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", :tag => s.version.to_s }
   s.source_files  = "YUKit", "YUKit/YUKit/YUKit.h"
   s.requires_arc = true
 
   s.frameworks   = "UIKit", "Foundation" 
-  s.dependency     'Masonry', '1.1.0'
-
+  # s.dependency     'Masonry', '1.1.0'
 
   s.subspec 'YUDefine' do |define|
       define.source_files = 'YUKit/YUKit/YUDefine/*.{h}'
@@ -36,6 +35,5 @@ Pod::Spec.new do |s|
      viewMaker.source_files = 'YUKit/YUViewMaker/**/*.{h,m}'
      viewMaker.dependency 'YUKit/YUKit/YUDefine'
   end
-
 
 end
