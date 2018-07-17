@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YUKit"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "YUKit组件"
   s.description  = <<-DESC
 			"YUKit.description"
@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   end
 	
   s.subspec 'YUViewMaker' do |viewMaker|
-     viewMaker.source_files = 'YUKit/YUViewMaker/**/*.{h,m}'
-     viewMaker.dependency 'YUKit/YUKit/YUDefine'
+     viewMaker.source_files = 'YUKit/YUKit/YUViewMaker/*.{h,m}'
+     viewMaker.dependency 'YUKit/YUDefine'
   end
 
 end
