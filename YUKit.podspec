@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YUKit"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "YUKit组件"
   s.description  = <<-DESC
 			"YUKit.description"
@@ -20,19 +20,19 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   # s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", }
   s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", :tag => s.version.to_s }
-  s.source_files  = "YUKit", "YUKitDemo/YUKit/YUKit.h"
+  s.source_files  = "YUKit", "YUKit/YUKit.h"
   s.requires_arc = true
-
+  
   s.frameworks   = "UIKit", "Foundation" 
-  s.vendored_frameworks = 'YUKitDemo/YUKit/*.{framework}'
-
+  s.vendored_frameworks = 'YUKit/*.{framework}'
+  
   s.subspec 'YUDefine' do |define|
-      define.source_files = 'YUKitDemo/YUKit/YUDefine/*.{h}'
+      define.source_files = 'YUKit/YUDefine/*.{h}'
       define.dependency 'Masonry', '1.1.0'
   end
 	
   s.subspec 'YUViewMaker' do |viewMaker|
-     viewMaker.source_files = 'YUKitDemo/YUKit/YUViewMaker/*.{h,m}'
+     viewMaker.source_files = 'YUKit/YUViewMaker/*.{h,m}'
      viewMaker.dependency 'YUKit/YUDefine'
   end
 
