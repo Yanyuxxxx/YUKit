@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YUKit"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "YUKit组件"
   s.description  = <<-DESC
 			"YUKit.description"
