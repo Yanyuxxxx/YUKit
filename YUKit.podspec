@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YUKit"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "YUKit组件"
   s.description  = <<-DESC
 			"YUKit.description"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.frameworks   = "UIKit", "Foundation" 
-  s.vendored_frameworks = 'YUKitDemo/YUKit/*.{framework}'
+  # s.vendored_frameworks = 'YUKitDemo/YUKit/*.{framework}'
 
   s.subspec 'YUDefine' do |define|
       define.source_files = 'YUKitDemo/YUKit/YUDefine/*.{h}'

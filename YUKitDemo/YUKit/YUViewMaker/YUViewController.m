@@ -7,7 +7,6 @@
 //
 
 #import "YUViewController.h"
-#import <YULib/YULabel.h>
 #import "Masonry.h"
 
 @interface YUViewController ()
@@ -27,8 +26,6 @@
         make.center.equalTo(self.view);
         make.width.height.equalTo(@100);
     }];
-    
-    YULabel *l = [YULabel new];
 }
 
 - (void)didReceiveMemoryWarning {

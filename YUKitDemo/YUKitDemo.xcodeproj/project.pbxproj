@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2CF1374BCDD3B4D7EE03A7BA /* libPods-YUKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DB6CD4D959348BEEBE0E6B /* libPods-YUKitDemo.a */; };
 		610DBA7120FDC1F700A7DE82 /* YUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610DBA6C20FDC1F700A7DE82 /* YUViewController.m */; };
-		610DBA7320FDC47B00A7DE82 /* YULib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610DBA7220FDC47B00A7DE82 /* YULib.framework */; };
 		6154522720FD936000DF61E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6154522620FD936000DF61E0 /* AppDelegate.m */; };
 		6154522A20FD936000DF61E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6154522920FD936000DF61E0 /* ViewController.m */; };
 		6154522D20FD936000DF61E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6154522B20FD936000DF61E0 /* Main.storyboard */; };
@@ -25,7 +24,6 @@
 		610DBA6D20FDC1F700A7DE82 /* YUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUViewController.h; sourceTree = "<group>"; };
 		610DBA6E20FDC1F700A7DE82 /* YUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUKit.h; sourceTree = "<group>"; };
 		610DBA7020FDC1F700A7DE82 /* YUKitColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUKitColor.h; sourceTree = "<group>"; };
-		610DBA7220FDC47B00A7DE82 /* YULib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YULib.framework; sourceTree = "<group>"; };
 		6154522220FD936000DF61E0 /* YUKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6154522520FD936000DF61E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6154522620FD936000DF61E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610DBA7320FDC47B00A7DE82 /* YULib.framework in Frameworks */,
 				2CF1374BCDD3B4D7EE03A7BA /* libPods-YUKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +69,6 @@
 		610DBA6A20FDC1F700A7DE82 /* YUKit */ = {
 			isa = PBXGroup;
 			children = (
-				610DBA7220FDC47B00A7DE82 /* YULib.framework */,
 				610DBA6E20FDC1F700A7DE82 /* YUKit.h */,
 				610DBA6B20FDC1F700A7DE82 /* YUViewMaker */,
 				610DBA6F20FDC1F700A7DE82 /* YUDefine */,
