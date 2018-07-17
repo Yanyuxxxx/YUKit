@@ -33,6 +33,7 @@
 		6107960720FC97F400AFAECB /* YUKitColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUKitColor.h; sourceTree = "<group>"; };
 		6107960920FC982200AFAECB /* YUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUViewController.h; sourceTree = "<group>"; };
 		6107960A20FC982200AFAECB /* YUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUViewController.m; sourceTree = "<group>"; };
+		6107960C20FCAEF000AFAECB /* YUKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUKit.h; sourceTree = "<group>"; };
 		611E798E20F8B14C008ADAF2 /* YUKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04DA29EF764BCD4130FFE50 /* Pods-YUKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUKit/Pods-YUKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +140,7 @@
 			children = (
 				6107960620FC97F400AFAECB /* YUDefine */,
 				6107960820FC97F400AFAECB /* YUViewMaker */,
+				6107960C20FCAEF000AFAECB /* YUKit.h */,
 			);
 			path = YUKit;
 			sourceTree = "<group>";
