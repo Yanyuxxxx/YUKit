@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2CF1374BCDD3B4D7EE03A7BA /* libPods-YUKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DB6CD4D959348BEEBE0E6B /* libPods-YUKitDemo.a */; };
+		610DBA7120FDC1F700A7DE82 /* YUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610DBA6C20FDC1F700A7DE82 /* YUViewController.m */; };
 		6154522720FD936000DF61E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6154522620FD936000DF61E0 /* AppDelegate.m */; };
 		6154522A20FD936000DF61E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6154522920FD936000DF61E0 /* ViewController.m */; };
 		6154522D20FD936000DF61E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6154522B20FD936000DF61E0 /* Main.storyboard */; };
 		6154522F20FD936100DF61E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6154522E20FD936100DF61E0 /* Assets.xcassets */; };
 		6154523220FD936100DF61E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6154523020FD936100DF61E0 /* LaunchScreen.storyboard */; };
 		6154523520FD936200DF61E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6154523420FD936200DF61E0 /* main.m */; };
-		6154524220FD93CA00DF61E0 /* YUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6154523D20FD93CA00DF61E0 /* YUViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13DB6CD4D959348BEEBE0E6B /* libPods-YUKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0166518DFCA19D6F88EFE8 /* Pods-YUKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUKitDemo/Pods-YUKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		610DBA6C20FDC1F700A7DE82 /* YUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUViewController.m; sourceTree = "<group>"; };
+		610DBA6D20FDC1F700A7DE82 /* YUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUViewController.h; sourceTree = "<group>"; };
+		610DBA6E20FDC1F700A7DE82 /* YUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUKit.h; sourceTree = "<group>"; };
+		610DBA7020FDC1F700A7DE82 /* YUKitColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUKitColor.h; sourceTree = "<group>"; };
 		6154522220FD936000DF61E0 /* YUKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6154522520FD936000DF61E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6154522620FD936000DF61E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,10 +34,6 @@
 		6154523120FD936100DF61E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6154523320FD936100DF61E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6154523420FD936200DF61E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6154523D20FD93CA00DF61E0 /* YUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUViewController.m; sourceTree = "<group>"; };
-		6154523E20FD93CA00DF61E0 /* YUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUViewController.h; sourceTree = "<group>"; };
-		6154523F20FD93CA00DF61E0 /* YUKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUKit.h; sourceTree = "<group>"; };
-		6154524120FD93CA00DF61E0 /* YUKitColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUKitColor.h; sourceTree = "<group>"; };
 		FD7BCE61B072B352A7DECCA0 /* Pods-YUKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YUKitDemo/Pods-YUKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,10 +66,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		610DBA6A20FDC1F700A7DE82 /* YUKit */ = {
+			isa = PBXGroup;
+			children = (
+				610DBA6E20FDC1F700A7DE82 /* YUKit.h */,
+				610DBA6B20FDC1F700A7DE82 /* YUViewMaker */,
+				610DBA6F20FDC1F700A7DE82 /* YUDefine */,
+			);
+			path = YUKit;
+			sourceTree = "<group>";
+		};
+		610DBA6B20FDC1F700A7DE82 /* YUViewMaker */ = {
+			isa = PBXGroup;
+			children = (
+				610DBA6C20FDC1F700A7DE82 /* YUViewController.m */,
+				610DBA6D20FDC1F700A7DE82 /* YUViewController.h */,
+			);
+			path = YUViewMaker;
+			sourceTree = "<group>";
+		};
+		610DBA6F20FDC1F700A7DE82 /* YUDefine */ = {
+			isa = PBXGroup;
+			children = (
+				610DBA7020FDC1F700A7DE82 /* YUKitColor.h */,
+			);
+			path = YUDefine;
+			sourceTree = "<group>";
+		};
 		6154521920FD936000DF61E0 = {
 			isa = PBXGroup;
 			children = (
-				6154523B20FD93CA00DF61E0 /* YUKit */,
+				610DBA6A20FDC1F700A7DE82 /* YUKit */,
 				6154522420FD936000DF61E0 /* YUKitDemo */,
 				6154522320FD936000DF61E0 /* Products */,
 				4E4120EAFECC73784301E06C /* Pods */,
@@ -99,34 +126,6 @@
 				6154523420FD936200DF61E0 /* main.m */,
 			);
 			path = YUKitDemo;
-			sourceTree = "<group>";
-		};
-		6154523B20FD93CA00DF61E0 /* YUKit */ = {
-			isa = PBXGroup;
-			children = (
-				6154523F20FD93CA00DF61E0 /* YUKit.h */,
-				6154523C20FD93CA00DF61E0 /* YUViewMaker */,
-				6154524020FD93CA00DF61E0 /* YUDefine */,
-			);
-			name = YUKit;
-			path = ../YUKit;
-			sourceTree = "<group>";
-		};
-		6154523C20FD93CA00DF61E0 /* YUViewMaker */ = {
-			isa = PBXGroup;
-			children = (
-				6154523D20FD93CA00DF61E0 /* YUViewController.m */,
-				6154523E20FD93CA00DF61E0 /* YUViewController.h */,
-			);
-			path = YUViewMaker;
-			sourceTree = "<group>";
-		};
-		6154524020FD93CA00DF61E0 /* YUDefine */ = {
-			isa = PBXGroup;
-			children = (
-				6154524120FD93CA00DF61E0 /* YUKitColor.h */,
-			);
-			path = YUDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +251,7 @@
 			files = (
 				6154522A20FD936000DF61E0 /* ViewController.m in Sources */,
 				6154523520FD936200DF61E0 /* main.m in Sources */,
-				6154524220FD93CA00DF61E0 /* YUViewController.m in Sources */,
+				610DBA7120FDC1F700A7DE82 /* YUViewController.m in Sources */,
 				6154522720FD936000DF61E0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +315,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -374,6 +374,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -396,6 +397,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ET6XQ7WC69;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YUKitDemo",
+				);
 				INFOPLIST_FILE = YUKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,6 +419,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ET6XQ7WC69;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YUKitDemo",
+				);
 				INFOPLIST_FILE = YUKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
