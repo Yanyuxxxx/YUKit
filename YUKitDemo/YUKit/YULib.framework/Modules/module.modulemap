@@ -1,0 +1,6 @@
+framework module YULib {
+  umbrella header "YULib.h"
+
+  export *
+  module * { export * }
+}
