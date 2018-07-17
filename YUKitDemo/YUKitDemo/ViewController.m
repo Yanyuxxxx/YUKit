@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import <YUKit.h>
+#import <YULib/YULib.h>
+#import <YULib/YULabel.h>
 
 @interface ViewController ()
 
@@ -17,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    YULabel *label = [YULabel new];
 }
 
 
