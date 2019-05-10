@@ -1,4 +1,7 @@
-YUKit/Pods
+YUKit.xcodeproj/xcuserdata/
+YUKit.xcworkspace/
+Pods/
+*.swp
 Podfile.lock
-UserInterfaceState.xcuserstate
-YUKitDemo/Pods
+.DS_Store
+YUKit.xcodeproj/project.xcworkspace/xcuserdata/

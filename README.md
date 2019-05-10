@@ -1,2 +1,1 @@
-# YUKit
-私有组件
+pod "YUKit"
