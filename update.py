@@ -29,8 +29,8 @@ def pod_command_edit():
     global lib_command
     global pod_push_command
     source_suffix = 'https://github.com/CocoaPods/Specs.git --allow-warnings'
-    lib_command = 'pod lib lint --sourcess='
-    pod_push_command = 'pod repo push ' + project_name + ' ' + podspec_file_name
+    lib_command = 'pod lib lint --sources='
+    pod_push_command = 'pod repo pushs ' + project_name + ' ' + podspec_file_name
     if len(sources) > 0:
         # rely on  private sourece
         pod_push_command += ' --sources='
@@ -55,6 +55,7 @@ def update_version():
     file_data = ""
     new_line = ""
     global find_version_flag
+    find_version_flag = False
 
     for line in infos:
         if line.find(".version") != -1:
@@ -118,6 +119,7 @@ def recover_version():
     file_data = ""
     new_line = ""
     global find_version_flag
+    find_version_flag = False
 
     for line in infos:
         if line.find(".version") != -1:
@@ -181,7 +183,7 @@ def lib_lint():
     r = os.system(lib_command)
     if r != 0 :
         recover_version()
-        # raise RuntimeError("--------- lib_lint 失败 --------")
+        raise RuntimeError("--------- lib_lint 失败 --------")
 
 def git_operation():
     os.system('git add .')
