@@ -30,7 +30,7 @@ def pod_command_edit():
     global pod_push_command
     source_suffix = 'https://github.com/CocoaPods/Specs.git --allow-warnings'
     lib_command = 'pod lib lint --sources='
-    pod_push_command = 'pod repo push ' + project_name + ' ' + podspec_file_name
+    pod_push_command = 'pod repo pushs ' + project_name + ' ' + podspec_file_name
     if len(sources) > 0:
         # rely on  private sourece
         pod_push_command += ' --sources='
@@ -197,8 +197,11 @@ def git_operation():
     push_command = 'git push origin ' + current_branch
     
     # tag
-    tag_command = 'git tag -m "' + new_tag + '" ' + new_tag
-    os.system(tag_command)
+    tag_delete_command = 'git tag -d ' + new_tag
+    os.system(tag_delete_command)
+
+    tag_add_command = 'git tag -m "' + new_tag + '" ' + new_tag
+    os.system(tag_add_command)
     
     # push tags
     os.system('git push --tags')
