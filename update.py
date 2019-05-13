@@ -114,7 +114,9 @@ def update_version():
 
 def lib_lint():
     print("-------- waiting for pod lib lint checking ...... ---------")
-    os.system(lib_command)
+    r = os.system(lib_command)
+    if r != 0 :
+        raise RuntimeError("--------- lib_lint 失败 --------")
 
 def git_operation():
     os.system('git add .')
@@ -136,7 +138,9 @@ def git_operation():
 
 def pod_push():
     print("--------  waiting for pod push  ...... ---------")
-    os.system(pod_push_command)
+    r = os.system(pod_push_command)
+    if r != 0 :
+        raise RuntimeError("--------- pod_push 失败 --------")
 
 
 
