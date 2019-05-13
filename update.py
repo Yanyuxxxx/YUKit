@@ -6,7 +6,7 @@ import fileinput
 
 # ======================  edit by yourself  ======================
 sources = [
-    'https://github.com/Yanyuxxxx/YURepo.git',
+    '',
 ]
 
 project_name = 'YURepo'
@@ -29,7 +29,7 @@ def pod_command_edit():
     global lib_command
     global pod_push_command
     source_suffix = 'https://github.com/CocoaPods/Specs.git --allow-warnings'
-    lib_command = 'pod lib lint --sourcess='
+    lib_command = 'pod lib lint --sources='
     pod_push_command = 'pod repo push ' + project_name + ' ' + podspec_file_name
     if len(sources) > 0:
         # rely on  private sourece
