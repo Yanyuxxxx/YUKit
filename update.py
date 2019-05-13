@@ -6,7 +6,7 @@ import fileinput
 
 # ======================  edit by yourself  ======================
 sources = [
-    '',
+    'https://github.com/Yanyuxxxx/YURepo.git',
 ]
 
 project_name = 'YURepo'
