@@ -36,7 +36,7 @@ find_version_flag = False
 def pod_command_edit():
     global lib_command
     global pod_push_command
-    source_suffix = 'https://github.com/CocoaPods/Specs.git --allow-warnings'
+    source_suffix = 'https://github.com/CocoaPods/Specs.git --allow-warnings --use-libraries'
     lib_command = 'pod lib lint --sources='
     pod_push_command = 'pod repo push ' + project_name + ' ' + podspec_file_name
     if len(sources) > 0:
@@ -203,6 +203,7 @@ def git_operation():
     current_branch = r.read()
     r.close()
     push_command = 'git push origin ' + current_branch
+    os.system(push_command)
     
     # tag
     tag_delete_command = 'git tag -d ' + new_tag
@@ -227,8 +228,8 @@ def pod_push():
 # run commands
 update_version()
 pod_command_edit()
-lib_lint()
 git_operation()
+lib_lint()
 pod_push()
 
 
