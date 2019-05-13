@@ -1,4 +1,13 @@
 # -*- coding: UTF-8 -*-
+
+# 怎么使用
+# 1. 将update.py文件拖入Pod组件工程中，并保证它与 podspec 文件处于同一级别的目录
+# 2. 打开update.py在顶部虚线框中进行配置。
+# 第一项 sources 是pod组件所依赖的私有源地址，它是一个数组，可以填写多个私有源，用逗号隔开。其中 https://github.com/CocoaPods/Specs.git 不需要填写，脚本内已经写了。
+# 第二项是你的项目名称
+# 第三项是podspec文件名
+# 3. 打开终端，cd 到这个脚本文件所在目录中，执行 python update.py，即可开始自动升级。
+
 import os, sys
 import fileinput
 
